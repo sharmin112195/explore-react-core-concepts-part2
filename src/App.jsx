@@ -3,6 +3,7 @@ import './App.css'
 import Counter from './Counter'
 import Team from './Team'
 import Users from './Users'
+import Friends from './Friends'
 
 function App() {
   function handleClick(){
@@ -19,9 +20,11 @@ function App() {
     <>
      
       <h2>React Core Concepts 2</h2>
+      <Friends></Friends>
       <Counter></Counter>
       <Team></Team>
       <Users></Users>
+      
       <button onClick={handleClick}>Click Me</button>
       <button onClick={handleClick2}>Click 2</button>
       <button onClick={() =>{alert('third clicked')}}>Click 3</button>
